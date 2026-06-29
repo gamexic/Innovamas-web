@@ -1,0 +1,7 @@
+{
+  "name": "Innovamas Academia SITIO WEB OFICIAL 2 ULTIMO",
+  "description": "Tu ingreso es nuestro objetivo. Academia especializada en preparación para San Marcos y Villarreal.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
