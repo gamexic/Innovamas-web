@@ -12,6 +12,7 @@ import {
   GraduationCap
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { AULA_VIRTUAL_URL } from '../config';
 
 const TikTokIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -66,6 +67,16 @@ export default function Footer() {
               </a>
               <a href="#" className="w-12 h-12 bg-white/10 hover:bg-white text-white hover:text-black rounded-full flex items-center justify-center transition-all duration-300 backdrop-blur-sm border border-white/20">
                 <TikTokIcon />
+              </a>
+            </div>
+            <div className="flex justify-center lg:justify-start pt-2">
+              <a
+                href={AULA_VIRTUAL_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-brand-cyan text-brand-darkblue font-black uppercase tracking-wide px-7 py-3 rounded-full shadow-lg hover:bg-white transition-all transform hover:scale-105"
+              >
+                <GraduationCap size={20} /> Aula Virtual
               </a>
             </div>
           </div>
