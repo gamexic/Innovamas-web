@@ -1,6 +1,6 @@
 // Enlaces externos configurables de la web de Innovamas.
 //
 // AULA_VIRTUAL_URL: destino del botón "Aula Virtual" (cabecera y pie de página).
-// TODO: reemplazar '#' por la URL real del aula virtual cuando el cliente la indique.
+// URL del aula virtual en producción (subdominio en el VPS).
 // Mientras sea '#', el botón se muestra pero no redirige a ningún sitio externo.
-export const AULA_VIRTUAL_URL = '#';
+export const AULA_VIRTUAL_URL = 'https://aula.innovamascorp.com';
